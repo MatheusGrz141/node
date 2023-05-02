@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "mongoose": "^7.1.0",
+    "mongose": "^0.0.2-security",
+    "nodemon": "^2.0.22",
+    "save": "^2.9.0"
+  }
+}

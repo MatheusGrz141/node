@@ -1,0 +1,14 @@
+<h1>lista de posts</h1>
+{{#each posts}}
+<p>{{posts}}</p>
+  <h1>{{titulo}}</h1>
+  <p>{{conteudo}}</p>
+
+<a href="/deletar/{{id}}"><button>Deletar</button></a>
+
+{{/each}}
+
+<form action="/cadastro" method="get">
+
+  <button type="submit">Cadastrar postagem</button>
+</form>

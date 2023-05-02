@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style.css">
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Convidados</title>
+</head>
+<body>
+  
+    <div class="card">
+        <h1>cadastro de convidados</h1>
+        <div>
+            <input type="text" placeholder="nome do convidado " id="nomeConvidado">
+        </div>
+        <div>
+            <button onclick="Inserir()">Inserir</button>
+        </div>
+        <div>
+            <button onclick="Limpar()">Limpar</button>
+        </div>
+        <fieldset> <legend>Busca</legend>
+            
+            <div>
+                <input type="text" placeholder="nome a ser buscado " id="nomeBusca">
+            </div>
+            <div>
+                <button onclick="Buscar()">Buscar</button>
+            </div>
+        </fieldset>
+    </div>
+    <div class="card"> 
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome do Convidado</th>
+                </tr>
+            </thead>
+            <tbody id="tabela"></tbody>
+        </table>
+    </div> 
+    <script src="./script.js"></script>
+</body>
+</html>
